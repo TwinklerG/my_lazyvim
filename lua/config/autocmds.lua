@@ -16,7 +16,6 @@ vim.api.nvim_create_autocmd("FileType", {
   group = augroup("wrap_spell"),
   pattern = { "markdown" },
   callback = function()
-    vim.opt_local.wrap = false
     vim.opt_local.spell = false
   end,
 })
@@ -24,7 +23,6 @@ vim.api.nvim_create_autocmd("FileType", {
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "markdown",
   callback = function()
-    vim.opt_local.wrap = false
     vim.opt_local.linebreak = false
   end,
 })
