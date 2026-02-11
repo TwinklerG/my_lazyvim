@@ -12,10 +12,24 @@ return {
         },
       },
 
+      indent = {
+        scope = {},
+      },
+
       explorer = {},
       picker = {
-        hidden = true, -- hidden files ke liye
-        ignored = true, -- .gitignore files ke liye
+        hidden = true,
+        ignored = true,
+
+        sources = {
+          explorer = {
+            layout = {
+              layout = {
+                width = 0.2,
+              },
+            },
+          },
+        },
       },
     },
   },
