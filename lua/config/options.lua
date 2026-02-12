@@ -3,3 +3,6 @@
 -- Add any additional options here
 
 vim.opt.wrap = true
+
+vim.o.clipboard = "unnamedplus"
+vim.g.clipboard = "osc52"
