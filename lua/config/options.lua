@@ -5,6 +5,7 @@
 vim.opt.wrap = true
 
 vim.opt.clipboard = "unnamedplus"
+vim.g.clipboard = "osc52"
 local function paste()
   return {
     vim.fn.split(vim.fn.getreg(""), "\n"),
