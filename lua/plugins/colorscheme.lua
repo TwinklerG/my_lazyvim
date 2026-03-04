@@ -10,6 +10,7 @@ return {
     },
   },
   { "ellisonleao/gruvbox.nvim" },
+  { "Mofiqul/vscode.nvim" },
 
   {
     "LazyVim/LazyVim",

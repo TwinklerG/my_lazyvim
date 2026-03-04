@@ -5,7 +5,7 @@ return {
       clangd = {
         cmd = {
           "clangd",
-          "--query-driver=/opt/homebrew/bin/g++-15",
+          --- "--query-driver=/opt/homebrew/bin/g++-15",
           "--background-index",
           "--header-insertion=never",
         },

@@ -1,6 +1,6 @@
 return {
   "gbprod/yanky.nvim",
-  enabled = false,
+  enabled = true,
   opts = {
     system_clipboard = {
       sync_with_ring = false,
